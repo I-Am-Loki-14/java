@@ -1,12 +1,20 @@
 // let name = "maung maung";
 // let age = 20;
 
-// let Intro = "My name is" + name + "and" + "age is" + age;
-// console.log(Intro);
+// // let Intro = "My name is" + name + "and" + "age is" + age;
+// // console.log(Intro);
 
-// let Intro2 = `my name is ${name.toUppercase} and is ${age-5}`;
-// console.log(Intro2);
+// let Intro2 = `my name is ${name} and is ${age-5}`;
+// console.log("Name-----------",Intro2);
 
+
+// let names = "Aung Aung";
+// let ages = "28"
+// let DOB ="20.1.2000"
+
+
+// let Info = `My name is ${names.toUppercase} and is ${ages} and ${DOB}`
+// console.log("Name---",Info);
 
 // let word = "Hello Myanmar";
 // console.log("Change country:",word.replace("Myanmar","Thai"));
