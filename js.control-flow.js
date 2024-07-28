@@ -52,110 +52,134 @@
 // console.log(name);
 
 
-let num1 =100
-let num2 ="100"
-let num3 = "a"
-let num4 = 400
+// let num1 =100
+// let num2 ="100"
+// let num3 = "a"
+// let num4 = 400
 
-let a = 1
+// let a = 1
 
-if (a===1){
-console.log("One")
-}
-else if(a===2){
-    console.log("Two");
-}
-else if(a===3){
-    console.log("Three");
-}
-else if(a===4){
-    console.log("Four");
-}
-else if(a===5){
-    console.log("Five");
-}
-else {
-    console.log("Wrong number brother");
-}
-
-switch (a) {
-    case 1:
-        console.log("One");
-        break;
-
-        case 2:
-        console.log("Two");
-        break;
-
-        case 3:
-        console.log("Three");
-        break;
-
-        case 4:
-        console.log("Four");
-        break;
-
-    default:
-        console.log("No math number brother");
-        break;
-}
+// if (a===1){
+// console.log("One")
+// }
+// else if(a===2){
+//     console.log("Two");
+// }
+// else if(a===3){
+//     console.log("Three");
+// }
+// else if(a===4){
+//     console.log("Four");
+// }
+// else if(a===5){
+//     console.log("Five");
+// }
+// else {
+//     console.log("Wrong number brother");
+// }
 
 
+// switch (a) {
+//     case 1:
+//         console.log("One");
+//         break;
 
-let calendar = new Date().getDay()
+//         case 2:
+//         console.log("Two");
+//         break;
 
-switch (calendar) {
-    case 0:
-        console.log("Sunday");
-        break;
+//         case 3:
+//         console.log("Three");
+//         break;
 
-        case 1:
-        console.log("Monday");
-        break;
+//         case 4:
+//         console.log("Four");
+//         break;
 
-        case 2:
-        console.log("Tuesday");
-        break;
+//     default:
+//         console.log("No math number brother");
+//         break;
+// }
 
-        case 3:
-        console.log("Wednesday");
-        break;
 
-        case 4:
-        console.log("Thursday");
-        break;
 
-        case 5:
-        console.log("Friday");
-        break;
+// let calendar = new Date().getDay()
 
-        case 6:
-        console.log("Saturday");
-        break;
+// switch (calendar) {
+//     case 0:
+//         console.log("Today is 'Sunday'  ");
+//         break;
 
-    default:
-        console.log("This calendar is wrong");
-        break;
-}
+//         case 1:
+//         console.log("Monday");
+//         break;
 
-let cal = new Date().getMonth
+//         case 2:
+//         console.log("Tuesday");
+//         break;
 
-switch (cal) {
-    case 0:
-        console.log("January");
-        
-        break;
+//         case 3:
+//         console.log("Wednesday");
+//         break;
 
-    default:
-        console.log("No have");
-        break;
-}
+//         case 4:
+//         console.log("Thursday");
+//         break;
 
-for (let i = 0; i < 10; i++) {
-  if(i === 5) continue
+//         case 5:
+//         console.log("Friday");
+//         break;
+
+//         case 6:
+//         console.log("Saturday");
+//         break;
+
+//     default:
+//         console.log("This calendar is wrong");
+//         break;
+// }
+
+  
+
+// for (let i = 0; i < 10; i++) {
+//   if(i === 5) continue
 //   if (i === 8) break
 
-    console.log("Hello",i);
+//     console.log("Hello",i);
    
     
-}
+// }
+
+// let users =["Nick","aung aung","zaw zaw","aye aye","no no","daniel","aung aung","jack","aye aye","no no"]
+
+// console.log(users);
+// console.log(users[6]);
+
+// for (let i = 0; i < users.length; i++) {
+//    let user = users[i] 
+//    console.log(`my name is ${user}`);
+//    if (users === Nick) continue   
+//    if (users === daniel) break
+//      {
+    
+//    } 
+
+//    //    console.log("Name is ",user);
+// }
+    
+
+// let users = ["Nick","aung aung","zaw zaw","aye aye"]
+
+// let i = 100
+
+// while (i < users.length) {
+//     let user = users[i]
+//     console.log(user)
+//     i++
+// }
+
+
+// do {
+//     let user = users[i]
+//     console.log("this is testing ");
+// } while (i < user);
