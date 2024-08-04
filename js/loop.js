@@ -10,11 +10,11 @@ const userLists = [
 
 
 // for (const i in userLists) {
-    // console.log(i);
-    // console.log(userLists[i]);
+//     console.log(i);
+//     console.log(userLists[i]);
 
-//     let user = userLists[i]
-//     console.log(user.id,user.name,user.age,user.address,user.gender);
+//     // let user = userLists[i]
+//     // console.log(user.id,user.name,user.age,user.address,user.gender);
 // }
 
 // let john = userLists[1]
@@ -25,7 +25,7 @@ const userLists = [
 // }
 
 // for (const a of userLists) {
-//     // console.log(a);
+    // console.log(a);
 //     const{id,name,age,address,gender,hobbies} = a
 //     console.log(`name ${name} address ${address}`);
 
@@ -60,9 +60,9 @@ const userLists = [
 
 
 
-let shop =[100,200,300,400,500,600]
-let total = shop.reduce((a,b)=> a+b ,150)
-console.log(total);
+// let shop =[100,200,300,400,500,600]
+// let total = shop.reduce((a,b)=> a+b ,150)
+// console.log(total);
 
 
 // for (let i = 0; i < userLists.length; i++) {
@@ -78,18 +78,19 @@ console.log(total);
 
     //    console.log(`Name is ${name} age is ${age} Address is ${address} Gender is ${gender}`);
         
-    // }
-    //   const {age,address} = userLists[i]
+    // }}
+    //   const {name,age,address} = userLists[i]
 
     //   if (age < 28 && address === "Yangon") {
-    //      console.log(`Under 24 ${age} Address yangon ${address}`);
+    //      console.log(`Name${name} Under 24 ${age} Address yangon ${address}`);
     //   }
+    
 
 
     
    
 // userLists.forEach(user => {
-//     // console.log(user);
+    // console.log(user);
 
 //      const{name,age,address,gender} = user;
     

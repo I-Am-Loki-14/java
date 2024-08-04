@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>welcome</h1>
+<h1>Hello</h1>
+<p>Lorem ipsum dolor sit amet.</p>
+<button>Change Red</button>
+<button>Change-blue</button>
+
+<body>
+    <script>
+        console.log(document);
+        console.log(document.head);
+        console.log(document.title = "JavaScript");
+        console.log(document.body);
+        console.log(document.h1);//undefined
+        console.log(document.p);//undifined
+
+        const h1 = document.getElementsByTagName("h1")
+        console.log(h1);
+        console.log(h1[0]);
+        console.log(h1[1]);
+        const btnRed = document.getElementsByTagName("button")[0]
+        console.log(btnRed);
+        const btnBlue = document.getElementsByTagName("button")[1];
+        console.log(btnBlue);
+
+
+
+
+        // h1[0].style.color = "Red"
+        // h1[1].style.color = "blue"
+
+        btnRed.addEventListener("click", function () {
+            document.bgColor = "cyan"
+            h1[0].style.color = "red"
+            h1[1].style.color = "orange"
+            h1[1].style.padding = "20px"
+            h1[1].style.border = "5px solid red"
+            h1[1].style.boxShadow = "0 0 20px black"
+            btnRed.style.boxShadow = "0 0 20px green"
+            btnRed.style.bgColor = "yellow"
+            h1[1].style.textAlign = "center"
+        })
+
+        btnBlue.addEventListener("click", function () {
+            document.bgColor = "blue"
+            h1[0].style.color = "white"
+            h1[1].style.color = "white"
+            btnBlue.style.boxShadow = "0 0 20px brown"
+            btnBlue.style.bgColor = "red"
+            h1[1].style.padding = "20px"
+            h1[1].style.border = "5px solid red"
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
