@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, soluta!</p>
+        <div class="app">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, architecto?</p>
+            <div class="sub">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+            </div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, esse?</span>
+        </div>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, nisi!</p>
+    </div>
+    <script>
+        const app = document.querySelector(".app")
+        console.log(app);
+        console.log(app.parentElement);
+        app.parentElement.style.background = "orange"
+
+        console.log(app.parentElement.parentElement);
+        app.parentElement.parentElement.style.background = "cyan"
+
+        console.log(app.parentElement.parentElement.children);
+        console.log(app.parentElement.parentElement.children[0]);
+
+        app.parentElement.parentElement.children[0].style.background = "brown";
+
+        console.log(app.parentElement.parentElement.children[0].children);
+        console.log(app.parentElement.parentElement.children[0].children[0]);
+        app.parentElement.parentElement.children[0].children[0].style.background = "green"
+
+        console.log(app.parentElement.parentElement.children[0].children[2]);
+        app.parentElement.parentElement.children[0].children[2].style.background = "blue"
+
+        console.log(app.parentElement.parentElement.children[0].children[2]);
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

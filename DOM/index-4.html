@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .app {
+        background-color: orange;
+        padding: 10px;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <p>Welcome</p>
+    <button onclick="add()">Add</button>
+    <button onclick="remove()">Remove</button>
+    <button onclick="toggle()">Toggle</button>
+
+    <script>
+        let p = document.querySelector("p")
+        function add() {
+            // let p = document.querySelector("p")
+            p.classList.add("app")
+
+            p.className = "bla apk app"
+            p.id = "title"
+            p.title = "Welcome para"
+            p.setAttribute("class", "app applica")
+            p.setAttribute("title", "title")
+
+        }
+
+        function remove() {
+            // let p = document.querySelector("p")
+            p.classList.remove("app")
+            p.removeAttribute("id")
+            p.removeAttribute("class")
+            p.removeAttribute("title")
+            let res = p.hasAttribute("title")
+            console.log(res);
+
+        }
+
+        function toggle() {
+            // let p = document.querySelector("p")
+            p.classList.toggle("app")
+        }
+    </script>
+</body>
+
+</html>

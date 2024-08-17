@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet.[1]</h1>
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.[2]</h1>
+    <p class="app">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, molestias?</p>
+    <p id="App">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure error consequuntur deleniti!</p>
+    <button>Click</button>
+
+    <script>
+        // document.getElementsByTagName
+        // document.getElementsByClassName
+        // document.getElementById
+        // document.querySelector
+        // document.querySelectorAll
+
+
+        let h1 = document.getElementsByTagName("h1")
+        console.log(h1);
+        console.log(h1[0]);
+        console.log(h1[1]);
+
+        let H1 = document.querySelector("h1")
+        console.log(H1);
+
+        let ALL = document.querySelectorAll("h1")
+        console.log(ALL);
+        console.log(ALL[0]);
+        console.log(ALL[1]);
+
+        let pClass = document.getElementsByClassName("app")[0]
+        pClass.style.color = "red"
+        pClass.style.background = "orange"
+        pClass.style.padding = "20px"
+        pClass.style.borderRadius = "20px"
+        console.log(pClass);
+        console.log(pClass[0]);
+
+
+        let Pclass = document.querySelector("app")
+        console.log(Pclass);
+
+
+
+        let PId = document.getElementById("App")
+        console.log(PId);
+
+        let PID = document.querySelector("#App")
+        console.log(PID);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

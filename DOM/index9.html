@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <article>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi dignissimos consequatur
+            voluptates iusto modi harum optio, mollitia ipsam non cum dolore sequi reiciendis fugit libero omnis <span>
+                quo repellat est architecto repudiandae quod eos quaerat aut! Culpa perferendis ab eum quam dolorum
+                ipsa, facilis error,
+                officiis dolor, eaque impedit facere!
+            </span></p>
+        <button>Show</button>
+    </article>
+    <article>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi dignissimos consequatur
+            voluptates iusto modi harum optio, mollitia ipsam non cum dolore sequi reiciendis fugit libero omnis <span>
+                quo repellat est architecto repudiandae quod eos quaerat aut! Culpa perferendis ab eum quam dolorum
+                ipsa, facilis error,
+                officiis dolor, eaque impedit facere!
+            </span></p>
+        <button>Show</button>
+    </article>
+    <article>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi dignissimos consequatur
+            voluptates iusto modi harum optio, mollitia ipsam non cum dolore sequi reiciendis fugit libero omnis <span>
+                quo repellat est architecto repudiandae quod eos quaerat aut! Culpa perferendis ab eum quam dolorum
+                ipsa, facilis error,
+                officiis dolor, eaque impedit facere!
+            </span></p>
+        <button>Show</button>
+    </article>
+    <script>
+        const span = document.querySelector("span")
+        const btn = document.querySelector("button")
+        const btns = document.querySelectorAll("button")
+        console.log(btns);
+        console.log(btns[0]);
+        console.log(btns[1]);
+        console.log(btns[2]);
+
+
+
+
+        span.style.display = "none"
+
+        // btn.onclick = function () {
+        //     if (span.style.display === "none") {
+        //         span.style.display = "block"
+        //         this.textContent = "hide"
+        //     } else {
+        //         span.style.display = "none"
+        //         this.textContent = "show"
+        //     }
+        // }
+        btns.forEach(btn => {
+            btn.onclick = function () {
+                console.log(this.previousElementSibling.children[0]);
+                let res = this.previousElementSibling.children[0]
+
+                if (res.style.display === "none") {
+                    res.style.display = "block"
+                    this.textContent = "hide"
+                } else {
+                    res.style.display = "none"
+                    this.textContent = "show"
+                }
+
+            }
+        });
+
+
+
+
+    </script>
+</body>
+
+</html>

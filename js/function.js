@@ -24,17 +24,19 @@ function myabout() {
     console.log(myAbout);
     
 }
-// myabout()
+myabout()
 
-// function color() {
-//    document.bgColor ="orange"
-// }
-// color()
 
-// function changeColor(color) {
-//     document.bgColor = color
-// }
-//  changeColor("red")
+
+function color() {
+   document.bgColor ="orange"
+}
+color()
+
+function changeColor(color) {
+    document.bgColor = color
+}
+ changeColor("red")
 
 
 // function changeColor(color) {
@@ -132,6 +134,7 @@ function myabout() {
 // calc(25,56, "*")
 // calc(20,5, "/")
 // calc(20,20, "%")
+
 
 
 

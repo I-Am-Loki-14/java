@@ -90,7 +90,7 @@
 //         console.log(`b win ${b.length}`);
 //         if(a.length === b.length ){
 //             document.write("Game is drawn")
-//             console.log("Game is draw");
+//             console.log("Game is drawn");
 //         }
 //         else
 //         {
@@ -110,3 +110,7 @@
 
 // }
 // dice.roll(16)
+
+ let shop =[100,200,300,400,500,600]
+let total = shop.reduce((a,b)=> a+b ,150)
+console.log(total)

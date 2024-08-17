@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <select name="country" id="country">
+
+    </select>
+
+
+    <script>
+        const countries = [
+            "myanmar",
+            "thailand",
+            "vietnam",
+            "china",
+            "indonesia",
+            "singapore",
+            "japan",
+            "korea",
+            "philippines",
+            "malaysia",
+            "australia",
+            "new zealand",
+            "germany",
+            "italy",
+            "france",
+            "spain",
+            "uk",
+        ]
+
+        countries.forEach(C => {
+            let choose = `<option value="${C}">${C}</option>`
+            document.querySelector("#country").innerHTML += choose
+            console.log(choose);
+
+        });
+    </script>
+</body>
+
+</html>

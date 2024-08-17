@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<button>Red</button>
+<button>Green</button>
+<button>Blue</button>
+<button>Orange</button>
+<button>Pink</button>
+<button>Brown</button>
+<button>Purple</button>
+
+<body>
+    <script>
+        let btns = document.querySelectorAll("button")
+        // console.log(btns);
+        btns.forEach(btn => {
+            // console.log(btn);
+            btn.onclick = function () {
+                console.log(this.textContent);
+                document.bgColor = this.textContent
+
+
+            }
+
+
+        });
+
+    </script>
+</body>
+
+</html>
